@@ -1009,7 +1009,7 @@ namespace Microsoft.Azure.Management.Network
             GenerateClientRequestId = true;
             SerializationSettings = new JsonSerializerSettings
             {
-                Formatting = Newtonsoft.Json.Formatting.Indented,
+                Formatting = Newtonsoft.Json.Formatting.None,
                 DateFormatHandling = Newtonsoft.Json.DateFormatHandling.IsoDateFormat,
                 DateTimeZoneHandling = Newtonsoft.Json.DateTimeZoneHandling.Utc,
                 NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore,
